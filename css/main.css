@@ -15,7 +15,19 @@ body {
   text-align: center;
   border-top: 4px solid #595652;
   border-bottom: 4px solid #595652;
+  margin: 0;
   width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: .5em .6em 0;
+  font-size: 2.5em;
+}
+
+nav {
+  display: inline-block;
+  padding: 0 .75em .75em;
 }
 
 nav ol {
@@ -23,6 +35,8 @@ nav ol {
   font-family: sans-serif;
   font-weight: bold;
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -30,7 +44,7 @@ a {
   background-color: #713837;
   padding: .6em;
   border-radius: 4px;
-  margin: .33em;
+  margin: .3em;
   color: #fff;
   text-decoration: none;
 }
