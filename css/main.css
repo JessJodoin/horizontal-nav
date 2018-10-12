@@ -12,11 +12,30 @@ html {
 body {
   background-color: #79756f;
   color: #fff;
+  text-align: center;
+  border-top: 4px solid #595652;
+  border-bottom: 4px solid #595652;
+  width: 100%;
 }
 
-
 nav ol {
+  display: inline-block;
   font-family: sans-serif;
   font-weight: bold;
   list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  background-color: #713837;
+  padding: .6em;
+  border-radius: 4px;
+  margin: .33em;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #f33;
+  color: #fff;
 }
