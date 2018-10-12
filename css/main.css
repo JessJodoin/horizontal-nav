@@ -8,3 +8,15 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #79756f;
+  color: #fff;
+}
+
+
+nav ol {
+  font-family: sans-serif;
+  font-weight: bold;
+  list-style-type: none;
+}
