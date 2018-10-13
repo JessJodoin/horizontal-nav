@@ -12,17 +12,17 @@ body {
   background-color: #79756f;
   color: #fff;
   text-align: center;
-  border-top: 4px solid #595652;
-  border-bottom: 4px solid #595652;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
   margin: 0;
   width: 100%;
 }
 
 h1 {
-  font-family: "Bevan", sans-serif;
-  margin: 0;
-  padding: .5em .6em 0;
-  font-size: 2.5em;
+  display: block;
+  font-family: Bevan, sans-serif;
+  margin: .3em 0 0;
+  padding: 0;
 }
 
 nav {
@@ -46,9 +46,9 @@ ul li {
 a {
   display: inline-block;
   background-color: #713837;
-  padding: .6em;
+  padding: .5em;
+  margin: 0 .3em 0 0;
   border-radius: 4px;
-  margin: .3em;
   color: #fff;
   text-decoration: none;
 }
@@ -56,4 +56,8 @@ a {
 a:hover {
   background-color: #f33;
   color: #fff;
+}
+
+ul li:last-child {
+  margin-top: .3em;
 }
